@@ -457,6 +457,7 @@
 #students-words{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: var(--mb-3);
 }
 .title-medium{
     margin-bottom: var(--mb-1);
@@ -471,6 +472,8 @@
     max-width: 460px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 40px;
     padding: 30px 25px;
+    margin-bottom: var(--mb-3);
+    border-radius: 5px;
 }
 .student-words-message-header{
     display: flex;
@@ -488,4 +491,51 @@
 .students-words-message-disc{
     color: hsla(0, 0%, 46%, 1);
     font-family: var(--font-medium);
+}
+.invite-content{
+    /* height: 400px; */
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    background-image: url('/assets/img/low-poly-grid-haikei.svg');
+    padding: 3rem 2rem 2rem 3rem;
+    border-radius: 15px;
+    margin-bottom: var(--mb-3);
+}
+.invite-message{
+    font-size: var(--normal-font-size);
+    font-family: var(--font-medium);
+    line-height: 1.5rem;
+    margin-bottom: var(--mb-2);
+}
+.email-input-wrap,.coupon-input-wrap{
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.email-input-wrap{
+    margin-bottom: var(--mb-1-5);
+}
+.form-field-input{
+    border: none;
+    padding: 15px;
+    border-radius: 5px  0 0 5px;
+    font-family: var(--font-semi-bold);
+}
+.form-field-input:focus{
+    outline: none;
+}
+.form-field-btn{
+    border: none;
+    background-color: var(--first-color);
+    color: hsl(0, 0%, 100%);
+    font-family: var(--font-semi-bold);
+}
+.form-field-btn:hover{
+    background-color:var(--first-color-alt) ;
+    transition: 300ms;
+}
+.invite-svg{
+    max-width: 450px;
 }
