@@ -415,3 +415,77 @@
     font-family: var(--font-thin);
     cursor: pointer;
 }
+#consultation-testimonial{
+    grid-area: testimonial;
+}
+#consultation-title{
+    vertical-align: bottom;
+    grid-area: title;
+    align-self: flex-end;
+    margin-bottom: var(--mb-1);
+}
+#consultation-discription{
+    grid-area: discription;
+}
+#consultations{
+    display: grid;
+    min-height: calc(100vh - 80px);
+    background-color: hsl(43, 79%, 92%);
+    grid-template-areas: "testimonial title"
+                         "testimonial discription";
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 7rem;
+    margin-bottom: var(--mb-2-5);
+}
+.consultation-discription-text{
+    margin-bottom: var(--mb-3);
+}
+.consult-now-btn{
+    text-decoration: none;
+    background-color: var(--first-color);
+    border: none;
+    padding: 10px 30px;
+    color: hsl(0, 0%, 100%);
+    font-family: var(--font-semi-bold);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.consult-now-btn:hover{
+    background-color: var(--first-color-alt);
+    transition: 300ms;
+}
+#students-words{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.title-medium{
+    margin-bottom: var(--mb-1);
+    font-family: var(--font-semi-bold);
+    font-size: var(--h3-font-size);
+}
+.student-words-title{
+    color: hsla(0, 0%, 46%, 1);
+    margin-bottom: var(--mb-2);
+}
+.students-words-message{
+    max-width: 460px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 40px;
+    padding: 30px 25px;
+}
+.student-words-message-header{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: var(--mb-1);
+}
+.student-words-message-header>p{
+    margin-bottom: 0;
+}
+.student-words-message-header>i{
+    font-size: var(--medium-big-font);
+    color: hsl(43, 79%, 92%);
+}
+.students-words-message-disc{
+    color: hsla(0, 0%, 46%, 1);
+    font-family: var(--font-medium);
+}
