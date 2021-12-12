@@ -115,13 +115,20 @@
     }
     
 }
-
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 *,body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Gilroy', sans-serif;
     color: var(--text-color)
+    
 }
 
 .round-btn{
@@ -876,6 +883,24 @@
 .footer-heading{
     font-family: var(--font-medium);
     font-size:var(--h3-font-size)
+}
+.footer-brand-mob{
+    justify-content: center;
+    margin-bottom:var(--mb-2)
+}
+.footer-content-mob{
+    margin-bottom:var(--mb-2-5)
+}
+.mob-footer{
+    display:none;
+}
+@media (max-width: 992px) {
+    .mob-footer{
+        display:block;
+    }
+    .footer-wrap{
+        display:none;
+    }
 }
 
 .slick-list {
