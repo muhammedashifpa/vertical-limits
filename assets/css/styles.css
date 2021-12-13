@@ -2,23 +2,23 @@
 
 @font-face {
     font-family: Gilroy;
-    src: url('/assets/fonts/Gilroy-Black.ttf');
+    src: url('../fonts/Gilroy-Black.ttf');
   }
 @font-face {
     font-family: Gilroy-bold;
-    src: url('/assets/fonts/Gilroy-Bold.ttf');
+    src: url('../fonts/Gilroy-Bold.ttf');
   }
 @font-face {
     font-family: Gilroy-ExtraBold;
-    src: url('/assets/fonts/Gilroy-ExtraBold.ttf');
+    src: url('../fonts/Gilroy-ExtraBold.ttf');
   }
 @font-face {
     font-family: Gilroy-medium;
-    src: url('/assets/fonts/Gilroy-Medium.ttf');
+    src: url('../fonts/Gilroy-Medium.ttf');
   }
 @font-face {
     font-family: Gilroy-regular;
-    src: url('/assets/fonts/Gilroy-Regular.ttf');
+    src: url('../fonts/Gilroy-Regular.ttf');
   }
 
 
@@ -319,7 +319,7 @@ body,html{
  }
  /*=======================      home section ==========================*/
  .hero-cover{
-     background: url('/assets/img/low-poly-grid-haikei.svg');
+     background: url('../img/low-poly-grid-haikei.svg');
      background-size: cover;
 
  }
@@ -705,7 +705,7 @@ body,html{
     display: grid;
     grid-template-columns: 5fr 4fr;
     grid-template-areas: "invite-content invite-svg" ;
-    background-image: url('/assets/img/low-poly-grid-haikei.svg');
+    background-image: url('../img/low-poly-grid-haikei.svg');
     padding: 3rem 2rem 2rem 3rem;
     border-radius: 15px;
     margin-bottom: var(--mb-3);
